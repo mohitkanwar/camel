@@ -37,7 +37,7 @@
         <firstVersion>2.18.0</firstVersion>
         <label>testing,java,osgi</label>
 
-        <karf-test-version>${karaf4-version}</karf-test-version>
+        <karf-test-version>4.2.7</karf-test-version>
     </properties>
 
     <dependencies>

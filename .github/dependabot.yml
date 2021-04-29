@@ -1,0 +1,244 @@
+version: 2
+updates:
+- package-ecosystem: maven
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: ca.uhn.hapi.fhir:hapi-fhir-structures-dstu2
+    versions:
+    - 5.2.1
+    - 5.3.0
+    - 5.3.2
+  - dependency-name: ca.uhn.hapi.fhir:hapi-fhir-structures-dstu3
+    versions:
+    - 5.2.1
+    - 5.3.0
+    - 5.3.2
+  - dependency-name: ca.uhn.hapi.fhir:hapi-fhir-client
+    versions:
+    - 5.2.1
+    - 5.3.0
+    - 5.3.2
+  - dependency-name: ca.uhn.hapi.fhir:hapi-fhir-base
+    versions:
+    - 5.2.1
+    - 5.3.0
+    - 5.3.2
+  - dependency-name: io.netty:netty-codec
+    versions:
+    - 4.1.58.Final
+    - 4.1.59.Final
+    - 4.1.60.Final
+    - 4.1.62.Final
+  - dependency-name: io.netty:netty-codec-http
+    versions:
+    - 4.1.58.Final
+    - 4.1.59.Final
+    - 4.1.60.Final
+    - 4.1.62.Final
+  - dependency-name: io.netty:netty-transport
+    versions:
+    - 4.1.58.Final
+    - 4.1.59.Final
+    - 4.1.60.Final
+    - 4.1.62.Final
+  - dependency-name: io.netty:netty-handler
+    versions:
+    - 4.1.58.Final
+    - 4.1.59.Final
+    - 4.1.60.Final
+    - 4.1.62.Final
+  - dependency-name: io.netty:netty-common
+    versions:
+    - 4.1.58.Final
+    - 4.1.59.Final
+    - 4.1.60.Final
+    - 4.1.62.Final
+  - dependency-name: io.netty:netty-buffer
+    versions:
+    - 4.1.58.Final
+    - 4.1.59.Final
+    - 4.1.60.Final
+    - 4.1.62.Final
+  - dependency-name: io.netty:netty-all
+    versions:
+    - 4.1.58.Final
+    - 4.1.59.Final
+    - 4.1.60.Final
+    - 4.1.62.Final
+  - dependency-name: org.eclipse.milo:sdk-client
+    versions:
+    - 0.5.3
+    - 0.5.4
+    - 0.6.0
+  - dependency-name: org.eclipse.milo:sdk-server
+    versions:
+    - 0.5.3
+    - 0.5.4
+    - 0.6.0
+  - dependency-name: org.apache.lucene:lucene-core
+    versions:
+    - 8.7.0
+    - 8.8.0
+    - 8.8.1
+  - dependency-name: com.fasterxml.jackson.datatype:jackson-datatype-jdk8
+    versions:
+    - 2.12.1
+  - dependency-name: com.fasterxml.jackson.datatype:jackson-datatype-jsr310
+    versions:
+    - 2.12.1
+  - dependency-name: com.fasterxml.jackson.jr:jackson-jr-objects
+    versions:
+    - 2.12.1
+  - dependency-name: com.fasterxml.jackson.module:jackson-module-jsonSchema
+    versions:
+    - 2.12.1
+  - dependency-name: com.fasterxml.jackson.module:jackson-module-jaxb-annotations
+    versions:
+    - 2.12.1
+  - dependency-name: com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider
+    versions:
+    - 2.12.1
+  - dependency-name: com.fasterxml.jackson.jaxrs:jackson-jaxrs-base
+    versions:
+    - 2.12.1
+  - dependency-name: com.fasterxml.jackson.datatype:jackson-datatype-joda
+    versions:
+    - 2.12.1
+  - dependency-name: com.fasterxml.jackson.dataformat:jackson-dataformat-yaml
+    versions:
+    - 2.12.1
+  - dependency-name: com.fasterxml.jackson.dataformat:jackson-dataformat-xml
+    versions:
+    - 2.12.1
+  - dependency-name: com.fasterxml.jackson.dataformat:jackson-dataformat-smile
+    versions:
+    - 2.12.1
+  - dependency-name: com.fasterxml.jackson.dataformat:jackson-dataformat-cbor
+    versions:
+    - 2.12.1
+  - dependency-name: com.fasterxml.jackson.core:jackson-databind
+    versions:
+    - 2.12.1
+  - dependency-name: com.fasterxml.jackson.core:jackson-core
+    versions:
+    - 2.12.1
+  - dependency-name: com.fasterxml.jackson.core:jackson-annotations
+    versions:
+    - 2.12.1
+  - dependency-name: org.eclipse.jetty:jetty-annotations
+    versions:
+    - 11.0.0
+  - dependency-name: org.eclipse.jetty:jetty-deploy
+    versions:
+    - 11.0.0
+  - dependency-name: org.eclipse.jetty:jetty-proxy
+    versions:
+    - 11.0.0
+  - dependency-name: org.eclipse.jetty:jetty-io
+    versions:
+    - 11.0.0
+  - dependency-name: org.eclipse.jetty:jetty-util-ajax
+    versions:
+    - 11.0.0
+  - dependency-name: org.eclipse.jetty:jetty-webapp
+    versions:
+    - 11.0.0
+  - dependency-name: org.eclipse.jetty:jetty-util
+    versions:
+    - 11.0.0
+  - dependency-name: org.eclipse.jetty:jetty-jmx
+    versions:
+    - 11.0.0
+  - dependency-name: org.eclipse.jetty:jetty-client
+    versions:
+    - 11.0.0
+  - dependency-name: org.eclipse.jetty:jetty-servlets
+    versions:
+    - 11.0.0
+  - dependency-name: org.eclipse.jetty:jetty-security
+    versions:
+    - 11.0.0
+  - dependency-name: org.eclipse.jetty:jetty-servlet
+    versions:
+    - 11.0.0
+  - dependency-name: org.eclipse.jetty:jetty-server
+    versions:
+    - 11.0.0
+  - dependency-name: org.eclipse.jetty:jetty-maven-plugin
+    versions:
+    - 11.0.0
+  - dependency-name: com.thoughtworks.xstream:xstream
+    versions:
+    - 1.4.15
+  - dependency-name: org.apache.logging.log4j:log4j-web
+    versions:
+    - 2.14.0
+  - dependency-name: org.apache.logging.log4j:log4j-jul
+    versions:
+    - 2.14.0
+  - dependency-name: org.apache.logging.log4j:log4j-jcl
+    versions:
+    - 2.14.0
+  - dependency-name: org.apache.logging.log4j:log4j-1.2-api
+    versions:
+    - 2.14.0
+  - dependency-name: org.apache.logging.log4j:log4j-slf4j-impl
+    versions:
+    - 2.14.0
+  - dependency-name: org.apache.logging.log4j:log4j-core
+    versions:
+    - 2.14.0
+  - dependency-name: org.apache.logging.log4j:log4j-api
+    versions:
+    - 2.14.0
+  - dependency-name: org.apache.karaf:apache-karaf
+    versions:
+    - 4.3.0
+  - dependency-name: org.apache.tika:tika-parsers
+    versions:
+    - "1.22"
+  - dependency-name: org.apache.tika:tika-core
+    versions:
+    - "1.22"
+  - dependency-name: org.springframework:spring-webmvc
+    versions:
+    - 5.1.9.RELEASE
+  - dependency-name: org.springframework:spring-expression
+    versions:
+    - 5.1.9.RELEASE
+  - dependency-name: org.springframework:spring-tx
+    versions:
+    - 5.1.9.RELEASE
+  - dependency-name: org.springframework:spring-context-support
+    versions:
+    - 5.1.9.RELEASE
+  - dependency-name: org.springframework:spring-jms
+    versions:
+    - 5.1.9.RELEASE
+  - dependency-name: org.springframework:spring-orm
+    versions:
+    - 5.1.9.RELEASE
+  - dependency-name: org.springframework:spring-jdbc
+    versions:
+    - 5.1.9.RELEASE
+  - dependency-name: org.springframework:spring-aop
+    versions:
+    - 5.1.9.RELEASE
+  - dependency-name: org.springframework:spring-web
+    versions:
+    - 5.1.9.RELEASE
+  - dependency-name: org.springframework:spring-beans
+    versions:
+    - 5.1.9.RELEASE
+  - dependency-name: org.springframework:spring-core
+    versions:
+    - 5.1.9.RELEASE
+  - dependency-name: org.springframework:spring-test
+    versions:
+    - 5.1.9.RELEASE
+  - dependency-name: org.springframework:spring-context
+    versions:
+    - 5.1.9.RELEASE
